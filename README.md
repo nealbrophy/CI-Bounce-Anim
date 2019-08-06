@@ -6,4 +6,4 @@ The challenge excercise from the CSS Animations Keyframe Properties module at Co
 
 ## What does it do?
 
-Bouncing ball (kind of).
+Displays a bouncing ball (kind of).

@@ -2,6 +2,38 @@ body {
     background-color: lemonchiffon;
 }
 
+.shadow {
+    background-color: darkslategray;
+    height: 20px;
+    width: 80px;
+    border-radius: 80%;
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    z-index: 1;
+    animation-name: shadowgrow;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes shadowgrow {
+    from {
+        height: 10px;
+        width: 20px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    to {
+        height: 20px;
+        width: 80px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
 .ball {
     background-color: tomato;
     width: 80px;
@@ -10,12 +42,14 @@ body {
     position: absolute;
     left: 50%;
     margin: 20px auto;
+    z-index: 3;
     animation-name: jump;
     animation-duration: .5s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    
 }
 
 @keyframes jump {
