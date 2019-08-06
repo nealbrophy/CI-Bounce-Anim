@@ -1,0 +1,28 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.ball {
+    background-color: tomato;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin: 20px auto;
+    animation-name: jump;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes jump {
+    from {
+        top: 100px;
+    }
+    to {
+        top: 0;
+    }
+}
