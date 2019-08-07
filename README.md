@@ -1,4 +1,4 @@
-# Code Institute CSS Animations KF Prop Challenge
+# Code Institute CSS Animations Keyframe Properties Challenge: Bouncing Ball
 
 ## What is it?
 
