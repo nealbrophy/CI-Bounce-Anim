@@ -10,4 +10,4 @@ Displays a bouncing ball.
 
 ## Where is it?
 
-https://nealbrophy.github.io/CI-CSS-Anim-Challenge/
+https://nealbrophy.github.io/CI-Bounce-Anim/
