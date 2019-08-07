@@ -13,7 +13,7 @@ body {
     z-index: 1;
     animation-name: shadowgrow;
     animation-duration: .5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: cubic-bezier(.8,.05,1,.8);
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
@@ -45,7 +45,7 @@ body {
     z-index: 3;
     animation-name: jump;
     animation-duration: .5s;
-    animation-timing-function: ease;
+    animation-timing-function: cubic-bezier(.5,1,.08,.8);
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: alternate;
